@@ -1,0 +1,42 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f7f6f9;
+}
+
+.base-text {
+    font-size: 10px;
+    font-weight: 500;
+    color: #a5a5a7;
+}
+
+.temperature-text {
+    font-size: 60px;
+}
+
+.base-color {
+    color: #a5a5a7;
+}
+
+.card {
+    background-color: #f7f7f959;
+    min-height: 80px;
+}
+
+.forecast::-webkit-scrollbar {
+    display: none;
+}
+
+.forecast {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.forecast-card {
+    min-width: 80px;
+    min-height: 100px;
+}
+
+.fs-low {
+    font-size: 12px;
+    font-weight: 600;
+}
